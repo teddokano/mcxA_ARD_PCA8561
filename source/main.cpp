@@ -10,7 +10,7 @@ r01lib_start;	/* *** place this word before making instance of r01lib classes **
 
 #include	"lcd/PCA8561.h"
 
-I2C			i2c;
+I2C			i2c( I2C_SDA, I2C_SCL );
 PCA8561		lcdd( i2c );
 
 void	test_putchar( void );

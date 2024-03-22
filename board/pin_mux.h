@@ -332,24 +332,6 @@ void BOARD_InitBootPins(void);
 #define BOARD_INITPINS_ARD_D3_PIN_MASK (1U << 0U)      /*!<@brief PORT pin mask */
                                                        /* @} */
 
-/*! @name PORT1_8 (number 2), ARD_D18
-  @{ */
-
-/* Symbols to be used with PORT driver */
-#define BOARD_INITPINS_ARD_D18_PORT PORT1               /*!<@brief PORT peripheral base pointer */
-#define BOARD_INITPINS_ARD_D18_PIN 8U                   /*!<@brief PORT pin number */
-#define BOARD_INITPINS_ARD_D18_PIN_MASK (1U << 8U)      /*!<@brief PORT pin mask */
-                                                        /* @} */
-
-/*! @name PORT1_9 (number 3), ARD_D19
-  @{ */
-
-/* Symbols to be used with PORT driver */
-#define BOARD_INITPINS_ARD_D19_PORT PORT1               /*!<@brief PORT peripheral base pointer */
-#define BOARD_INITPINS_ARD_D19_PIN 9U                   /*!<@brief PORT pin number */
-#define BOARD_INITPINS_ARD_D19_PIN_MASK (1U << 9U)      /*!<@brief PORT pin mask */
-                                                        /* @} */
-
 /*! @name PORT2_16 (number 24), ARD_D12
   @{ */
 
